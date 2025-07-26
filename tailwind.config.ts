@@ -63,6 +63,11 @@ export default {
 					DEFAULT: 'hsl(var(--warning))',
 					foreground: 'hsl(var(--warning-foreground))'
 				},
+				mobile: {
+					primary: 'hsl(var(--mobile-primary))',
+					secondary: 'hsl(var(--mobile-secondary))',
+					accent: 'hsl(var(--mobile-accent))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -121,10 +126,19 @@ export default {
 			backgroundImage: {
 				'gradient-primary': 'var(--gradient-primary)',
 				'gradient-secondary': 'var(--gradient-secondary)',
-				'gradient-hero': 'var(--gradient-hero)'
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-mobile': 'var(--gradient-mobile)',
+				'gradient-mobile-light': 'var(--gradient-mobile-light)'
 			},
 			boxShadow: {
-				'glow': 'var(--shadow-glow)'
+				'glow': 'var(--shadow-glow)',
+				'mobile': 'var(--mobile-shadow)',
+				'mobile-glow': 'var(--mobile-glow)'
+			},
+			spacing: {
+				'mobile': '1rem',
+				'mobile-lg': '1.5rem',
+				'mobile-xl': '2rem'
 			}
 		}
 	},
